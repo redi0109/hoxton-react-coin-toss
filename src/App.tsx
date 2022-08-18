@@ -7,7 +7,6 @@ function App() {
     
     function flipCoin() {
       let coinSide =Math.random()
-      console.log(coinSide)
       if(coinSide<=0.5){
         setCoinSide("Head")
       }else setCoinSide("Tails")

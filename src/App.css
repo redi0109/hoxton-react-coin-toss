@@ -41,6 +41,13 @@
 
 button {
   font-size: calc(10px + 2vmin);
+  border: none;
+  border-radius: 5px;
+  padding: 0.5rem 1rem;
+  background-color: #61dafb;
+  color: white;
+  cursor: pointer;
+  
 }
 
 
@@ -57,4 +64,8 @@ button {
   font-size: calc(10px + 2vmin);
   font-weight: bold;
   cursor: pointer;
+}
+
+.coin:hover{
+  background-color: #61dafb;
 }
